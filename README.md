@@ -53,6 +53,7 @@ Para instalar as dependências do backend, rode, a partir da pasta principal:
 cd backend
 python -m venv .venv
 pip install requirements.txt
+cd src/
 python -m uvicorn main:app --reload
 ```
 
